@@ -33,7 +33,7 @@ function populateTable() {
     let tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${transaction.name}</td>
-      <td>${transaction.value}</td>
+      <td>$ ${transaction.value}</td>
     `;
 
     tbody.appendChild(tr);
