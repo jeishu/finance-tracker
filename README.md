@@ -41,7 +41,9 @@ When brought back online:
 
 ## Demo
 
-![Picture](./public/img/demo.png)
+![Picture](./public/img/iphone6.png)
+![Picture](./public/img/ipad.png)
+![Picture](./public/img/desktop.png)
 
 ## Technology
 
