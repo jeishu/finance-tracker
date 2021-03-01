@@ -28,7 +28,7 @@ When brought back online:
 ## Links
 
 * Project Repo: [Repository](https://github.com/jeishu/finance-tracker)
-* Deployed Application: [Dungeon Scribe](https://glassmorphism-finance-tracker.herokuapp.com/)
+* Deployed Application: [Finance Tracker](https://glassmorphism-finance-tracker.herokuapp.com/)
 
 ## Demo
 
