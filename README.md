@@ -1,6 +1,7 @@
 # Finance Tracker
 
 ## Description
+
 An application made to record user's finances for online and offline uses.
 
 ## Table of Contents
@@ -15,15 +16,23 @@ An application made to record user's finances for online and offline uses.
 
 ## Features
 
+User Experience:
+    
+    User can add a budget.
+    
+    User can add items with a cost.
+    
+    User can subtract expenses.
+
 Offline Functionality:
 
-    [x] Enter deposits offline
+    Enter deposits offline.
 
-    [x] Enter expenses offline
+    Enter expenses offline.
 
 When brought back online:
 
-    [x] Offline entries should be added to tracker.
+    Offline entries should be added to tracker.
 
 ## Links
 
@@ -53,7 +62,7 @@ Deployment:
 Code originated from UT Austin Bootcamp. Additional code was added to make the application work. Deployment was done using Heroku and MongoDB Atlas.
 
 ## Questions
-If you have any question about the application, don't hesitate to contact me [Jeremy Zhu](https://github.com/jeishu)
+If you have any question about the application, don't hesitate to contact me: visit my [portfolio](https://github.com/jeishu).
 
 ## License
 
