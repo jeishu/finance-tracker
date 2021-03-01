@@ -17,13 +17,13 @@ An application made to record user's finances for online and offline uses.
 
 Offline Functionality:
 
-    [] Enter deposits offline
+    [x] Enter deposits offline
 
-    [] Enter expenses offline
+    [x] Enter expenses offline
 
 When brought back online:
 
-    [] Offline entries should be added to tracker.
+    [x] Offline entries should be added to tracker.
 
 ## Links
 
@@ -32,7 +32,7 @@ When brought back online:
 
 ## Demo
 
-![Picture]()
+![Picture](./public/img/demo.png)
 
 ## Technology
 
@@ -54,7 +54,6 @@ Code originated from UT Austin Bootcamp. Additional code was added to make the a
 
 ## Questions
 If you have any question about the application, don't hesitate to contact me [Jeremy Zhu](https://github.com/jeishu)
-
 
 ## License
 
