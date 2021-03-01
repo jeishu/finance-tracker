@@ -1,5 +1,7 @@
 # Finance Tracker
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 An application made to record user's finances for online and offline uses.
