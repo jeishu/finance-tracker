@@ -9,7 +9,6 @@ An application made to record user's finances for online and offline uses.
 * [Links](#Links)
 * [Demo](#Demo)
 * [Technology](#Technology)
-* [Reference](#Reference)
 * [Contributors](#Contributors)
 * [Questions](#Questions)
 * [License](#License)
@@ -29,7 +28,7 @@ When brought back online:
 ## Links
 
 * Project Repo: [Repository](https://github.com/jeishu/finance-tracker)
-* Deployed Application: [Dungeon Scribe]()
+* Deployed Application: [Dungeon Scribe](https://glassmorphism-finance-tracker.herokuapp.com/)
 
 ## Demo
 
@@ -37,12 +36,21 @@ When brought back online:
 
 ## Technology
 
+Langauges:
 
-## Reference
+    HTML, CSS, Javascript
 
+Technologies:
+
+    Compression, Express, Lite-server, Mongoose, Morgan
+
+Deployment:
+
+    Heroku, MongoDB Atlas
 
 ## Contributors
 
+Code originated from UT AUstin Bootcamp. Additional code was added to make the application work. Deployment was done using Heroku and MongoDB Atlas.
 
 ## Questions
 If you have any question about the application, don't hesitate to contact me [Jeremy Zhu](https://github.com/jeishu)
