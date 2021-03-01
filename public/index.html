@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,44 +8,63 @@
   <meta name="theme-color" content="#317EFB">
   <link rel="shortcut icon" href="icons/icon-192x192.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="styles.css">
 
-  <link rel="manifest" href="manifest.webmanifest"/>
+  <link rel="manifest" href="manifest.webmanifest" />
 
-  <title>Budget Tracker</title>
+  <title>Finance Tracker</title>
 </head>
+
 <body>
-  <div class="wrapper">
-    <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
-    </div>
+  <main>
+    <div class="wrapper">
+      <div class="left-container">
 
-    <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
-      <p class="error"></p>
-    </div>
+        <div class="total">
+          <h1>Finance Tracker</h1>
+          <div>Your total is: $<span id="total">0</span></div>
+        </div>
 
-    <div class="transactions">
-      <table>
-        <thead>
-          <th>Transaction</th>
-          <th>Amount</th>
-        </thead>
-        <tbody id="tbody">
-          
-        </tbody>
-      </table>
+        <div class="form">
+          <div class="input-container">
+            <input type="text" id="t-name" placeholder="NAME OF TRANSACTION" />
+            <input type="number" min="0" id="t-amount" placeholder="TRANSACTION AMOUNT" />
+          </div>
+
+          <div class="button-container">
+            <button id="add-btn"><i class="fa fa-plus buttons"></i></button>
+            <button id="sub-btn"><i class="fa fa-minus"></i></button>
+          </div>
+
+          <p class="error"></p>
+        </div>
+
+        <div class="transactions">
+          <table>
+            <thead>
+              <th>Transaction</th>
+              <th>Amount</th>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="right-container">
+        <canvas id="myChart"></canvas>
+      </div>
     </div>
-    
-    <canvas id="myChart"></canvas>
-  </div>
+  </main>
+
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="db.js"></script>
   <script src="index.js"></script>
 </body>
+
 </html>

@@ -1,11 +1,98 @@
-body {
-  font-size: 120%;
-  font-family: Arial;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-button, input {
-  font-size: 100%;
-  font-family: Arial;
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(217deg, rgba(0, 117, 226, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(128, 0, 255, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0, 195, 255, 0.8), rgba(0,0,255,0) 70.71%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  height: fit-content;
+
+  background: rgba( 21, 21, 21, 0.10 );
+  backdrop-filter: blur( 10.0px );
+  -webkit-backdrop-filter: blur( 10.0px );
+  border-radius: 20px;
+}
+
+.total {
+  color: rgb(255, 255, 255);
+  padding: 0.8em 4em;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.total h1 {
+  font-size: 2em;
+}
+
+.form {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  padding: .5em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  padding: .2em 1em;
+  background: rgba(0,0,0,0.1);
+  outline: none;
+  border-radius: .5em;
+  border: none;
+  transition: all .5s;
+}
+button:focus {
+  background: #e0e0e0;
+}
+
+input {
+  margin: .2em 0;
+  padding: .5em;
+  outline: none;
+  border: none;
+  background: rgba(170, 170, 170, 0.1);
+  border-radius: .5em;
+  transition: all .5s;
+}
+
+input:focus {
+  background-color: rgb(216, 216, 216);
+}
+::placeholder {
+  color: rgb(174, 174, 174);
 }
 
 table {
@@ -13,17 +100,26 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 10px;
+  color: #e0e0e0;
+}
+
+th {
+  background-color: rgba(141, 155, 165, 0.5);
+  font-weight: normal;
+  font-size: 1.2em;
+}
+tr {
+  font-size: .9em;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: rgba(141, 155, 165, 0.5);
 }
 
 .error {
-  color: red;
+  color: black;
 }
 
 .wrapper {
@@ -32,20 +128,14 @@ tr:nth-child(even) {
   text-align: center;
 }
 
-.total {
-  font-size: 150%;
-  text-decoration: underline;
-}
-
-.form {
-  margin-top: 25px;
-  width: 100%;
-}
-
 .transactions {
   text-align: left;
   max-height: 300px;
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.right-container {
+  padding: 1em;
 }

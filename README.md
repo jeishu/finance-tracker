@@ -50,7 +50,7 @@ Deployment:
 
 ## Contributors
 
-Code originated from UT AUstin Bootcamp. Additional code was added to make the application work. Deployment was done using Heroku and MongoDB Atlas.
+Code originated from UT Austin Bootcamp. Additional code was added to make the application work. Deployment was done using Heroku and MongoDB Atlas.
 
 ## Questions
 If you have any question about the application, don't hesitate to contact me [Jeremy Zhu](https://github.com/jeishu)
